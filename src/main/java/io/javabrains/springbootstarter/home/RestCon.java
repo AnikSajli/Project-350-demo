@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import io.javabrains.springbootstarter.model.User;
-import io.javabrains.springbootstarter.service.UserService;
+import io.javabrains.springbootstarter.services.UserService;
 
 @RestController
 public class RestCon {
