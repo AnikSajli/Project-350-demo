@@ -1,9 +1,14 @@
 package io.javabrains.springbootstarter.courses;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Entity
 public class Course {
+	
+	@Id
 	private String courseId;
 	private String courseDescription;
 	
